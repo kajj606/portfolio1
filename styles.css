@@ -1,0 +1,135 @@
+body {
+    background-color: #0e162b;
+}
+
+h2,h3,h4 {
+    color: #e9ecf0;
+    font-family: 'Helvetica';
+}
+ p {
+    color: #97a5b1;
+    font-family: 'Helvetica';
+ }
+
+.ft {
+    text-align: center;
+}
+
+ .foto-minha {
+    border-radius: 50%;
+    height: 190px;
+    margin-top: 50px;
+ }
+
+ .name {
+    text-align: center;
+    padding-bottom: 10px;
+ }
+
+.job {
+    text-align: center;
+    font-family: 'Helvetica';
+}
+
+.email-icon {
+    height: 50px;
+    width: 60px;
+    padding-right: 10px;
+}
+
+.telefone-icon {
+    height: 40px;
+    width: 120px;
+    padding-right: 5px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    font-family: 'Helvetica';
+}
+
+.contato {
+    display: flex;
+    text-align: center;
+    margin-left: 37%;
+    padding-top: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    background-color: #0e162b;
+    padding: 10px 0;
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+  
+  .navbar-list li {
+    margin: 0 20px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    font-family: 'Helvetica';
+  }
+  
+  .navbar-link:hover {
+    background-color: #38315e;
+    border-radius: 5px;
+  }
+  
+  .about-me {
+    text-align: center;
+  }
+
+  .text {
+    text-align: center;
+    font-size: larger;
+  }
+
+  .educacao {
+    text-align: center;
+  }
+
+  .list2 {
+    list-style-type: square;
+  }
+
+  .itemli {
+    color:  #97a5b1;
+    font-family: 'Helvetica';
+    font-size: larger;
+  }
+  
+  .habilidades {
+    text-align: center;
+  }
+
+.ptbr {
+  height: 80px;
+  width: 130px;
+}
+
+.usa {
+  padding-left: 20px;
+  height: 80px;
+}
