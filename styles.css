@@ -11,6 +11,11 @@ h2,h3,h4 {
     font-family: 'Helvetica';
  }
 
+.cabeçalho {
+  background: linear-gradient(to bottom, #38315e, #0e162b);
+  backdrop-filter: blur(100px);
+}
+
 .ft {
     text-align: center;
 }
@@ -67,8 +72,9 @@ h2,h3,h4 {
 .contato {
     display: flex;
     text-align: center;
-    margin-left: 33%;
+    margin-left: 37%;
     padding-top: 8px;
+    gap: 15px;
 }
 
 * {
@@ -77,50 +83,25 @@ h2,h3,h4 {
     box-sizing: border-box;
   }
   
-  .navbar {
-    background-color: #0e162b;
-    padding: 10px 0;
-  }
-  
-  .navbar-list {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-}
-  
-  .navbar-list li {
-    margin: 0 20px;
-  }
-  
-  .navbar-link {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    padding: 5px 10px;
-    transition: background-color 0.3s;
-    font-family: 'Helvetica';
-  }
-  
-  .navbar-link:hover {
-    background-color: #38315e;
-    border-radius: 5px;
-  }
-  
   .about-me {
-    text-align: center;
+    display: flex;
+    justify-content: flex-start;
   }
 
+.bout {
+margin-left: 19px;
+}
+
   .text {
-    text-align: center;
     font-size: larger;
+    max-width: 70%;
+    color: #A9A9A9;
+    margin-top: 40px;
+    margin-left: 19px;
   }
 
   .educacao {
-    text-align: center;
-  }
-
-  .list2 {
-    list-style-type: square;
+    margin-left: 19px;
   }
 
   .itemli {
@@ -130,38 +111,133 @@ h2,h3,h4 {
   }
   
   .habilidades {
-    text-align: center;
+    justify-content: flex-start;
+    margin-left: 15px;
   }
 
 .ptbr {
-  height: 80px;
-  width: 130px;
+  height: 50px;
+  width: 80px;
 }
 
 .usa {
   padding-left: 20px;
-  height: 80px;
+  height: 50px;
 }
 
-footer {
-    background-color: #0e162b;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  footer p {
-    margin: 5px 0;
-  }
+ .conteudo {
+  display: flex; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  width: 100%;
+  height: 100vh; 
+  padding: 0;
+  margin: 0;
+ }
 
-  .aside-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
+ .principal {
+  width: 75%; 
+  padding: 20px;
+ }
+
+ .aside-container {
+  display: flex;
+  width: 25%; 
+  padding-top: 40px;
+ padding: 20px; 
+  margin-left: 20px;  
+  border-left: 2px #252d40 solid;
+  height: 60%;
+  width: 45%;
+  margin-top: 47px;
+ }
+
+ .ling1, .ling2, .ling3, .ling4, .ling4, .ling5 {
+  transition: transform 0.5s ease;
+  transition: background-color 0.3s, color 0.3s
+
+ }
+
+ .ling1:hover, .ling2:hover, .ling3:hover, .ling4:hover, .ling5:hover {
+  background-color: #394763;  
+  color: #fff;
+ }
+
+ .hab {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  flex-wrap: wrap;
+  max-width: 350px;
+ }
+
+ .ling1, .ling2, .ling3, .ling4, .ling5 {
+  font-size: large;
+  background-color: #0c1427;
+  color: #e9ecf0;
+  border-radius: 6px;
+  padding: 7px;
+ }
+
+ .gua {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+ }
+
+ .line {
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid #252d40;
+ }
+
+ .contato-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #0e162b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+ }
+
+ label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+  color: #e9ecf0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; 
+}
+
+.tet {
+  text-align: center;
+  background-image: linear-gradient(to right, #0e162b, #6529ee);
+  width: 80%;
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.but {
+  width: 90px;
+}
+
+.ens {
+  font-size: larger;
+    max-width: 70%;
+    color: #A9A9A9;
+    margin-left: 19px;
+    
+}

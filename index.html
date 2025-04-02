@@ -33,17 +33,13 @@
         </header>
         <br>
     </div>
-    <hr>
-    <nav class="navbar">
-        <ul class="navbar-list">
-          <li><a href="#Sobre" class="navbar-link">Sobre mim</a></li>
-          <li><a href="#ed" class="navbar-link">Educação</a></li>
-          <li><a href="#habs" class="navbar-link">Habilidades</a></li>
-        </ul>
-      </nav>
-    <br>
+    <hr class="line">
+    <div class="conteudo">
+    <main class="principal">
+    <br> <br>
     <div class="about-me" id="Sobre">
-        <h3 class="bout">Sobre mim</h3>
+        <h2 class="bout">Sobre mim</h2>
+        <br><br>
         <p class="text">Sou um jovem engenheiro de software apaixonado por tecnologia e inovação. 
             Com um olhar atento para a resolução de problemas,
              busco sempre aprender novas linguagens de programação e melhorar minhas habilidades técnicas. Adoro trabalhar em equipe, colaborar em projetos desafiadores e criar soluções que impactem positivamente os usuários. Em constante evolução
@@ -52,42 +48,59 @@
     <br><br>
     <div class="educacao" id="ed">
         <h3>Educação</h3>
-        <br>
-        <ul class="list2">
-            <li class="itemli">Ensino Médio completo</li>
-            <br>
-            <li class="itemli">Cursando Engenharia de Software</li>
-        </ul>
+        <br> <br>
+       <p class="ens">Eu tenho o ensino médio completo e,
+         após concluir essa etapa, decidi seguir minha paixão por tecnologia e me formei em Engenharia de Software
+         . Durante a minha formação, tive a oportunidade de aprender diversas linguagens de programação, técnicas de desenvolvimento de sistemas, 
+         além de estudar sobre arquitetura de software, segurança e testes. Esse curso me proporcionou uma visão ampla de como criar e manter soluções tecnológicas eficientes, 
+         sempre com foco na resolução de problemas e na inovação. Acredito que minha jornada na Engenharia de Software começou com uma base sólida no ensino médio e se fortaleceu ao longo dos estudos universitários, 
+         e sigo em constante aprendizado para me manter atualizado na área.</p>
         <br><br>
     </div>
+    </main>
     <aside class="aside-container">
     <div class="habilidades" id="habs">
-        <h3>Habilidades e Línguas</h3>
+        <h2>Habilidades e Línguas</h2>
+        <br> <br>
+        <h3> Habilidades</h3>
         <br>
-        <h4> Habilidades</h4>
+        <div class="hab">
+        <p class="ling1">< HTML ></p>
         <br>
-        <p class="ling">< HTML ></p>
+        <p class="ling2">.CSS {</p>
         <br>
-        <p class="ling">.CSS {</p>
+        <p class="ling3">JavaScript</p>
         <br>
-        <p class="ling">JavaScript</p>
+        <p class="ling4">Python</p>
         <br>
-        <p class="ling">Python</p>
+        <p class="ling5">Informatica Avançada</p>
+        </div>
         <br>
-        <p class="ling">Informatica Avançada</p>
         <br>
-        <br>
-        <h4>Linguas</h4>
-        <br>
+        <div class="gua">
+        <h3>Linguas: </h3>
         <img src="ptbr.jpg" alt="PT-BR" class="ptbr">
         <img src="usa.jpg" alt="ENG" class="usa">
+        </div>
     </div>
     </aside>
     <br><br>
-    <footer>
-        <div class="rodapé-container">
-          <p>&copy; 2025, Primeiro Portfolio. Todos os direitos reservados.</p>
-        </div>
-      </footer>
+    <br><br>
+    </div>
+    <h2 class="tet">Vamos Trabalhar juntos!!</h2>
+    <div class="contato-container">
+        <form action="#" method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+    
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required placeholder="Seu e-mail">
+    
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" required placeholder="Sua mensagem"></textarea>
+    
+          <button type="submit" class="but">Enviar</button>
+        </form>
+      </div>
 </body>
 </html>
