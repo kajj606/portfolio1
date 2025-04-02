@@ -16,15 +16,9 @@ h2,h3,h4 {
   backdrop-filter: blur(100px);
 }
 
-.ft {
-    text-align: center;
+.foto-minha {
+  height: 20px;
 }
-
- .foto-minha {
-    border-radius: 50%;
-    height: 190px;
-    margin-top: 50px;
- }
 
  .name {
     text-align: center;
@@ -238,6 +232,11 @@ textarea {
   font-size: larger;
     max-width: 70%;
     color: #A9A9A9;
-    margin-left: 19px;
+    margin-left: 40px;
     
+}
+
+.ed {
+  display: flex;
+  justify-content: flex-start;
 }
